@@ -1,8 +1,9 @@
 const thepool = [
     {
         name: "Albedo",
-        wishimg: 'https://i.ytimg.com/vi/FXt7U7fICeQ/maxresdefault.jpg',
+        wishimg: '',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png',
+        cardimg: '',
         stars: "5",
         limited: false
     },
@@ -10,6 +11,7 @@ const thepool = [
         name: "Alhaitham",
         wishimg: '',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "5",
         limited: false
     },
@@ -17,6 +19,7 @@ const thepool = [
         name: "Amber",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/a906ddb1b9b01c9356285d40a89b6eb1.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -24,6 +27,7 @@ const thepool = [
         name: "Arataki Itto",
         wishimg: '',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki%2520Itto_icon.png',
+        cardimg: '',
         stars: "5",
         limited: false
     },
@@ -31,6 +35,7 @@ const thepool = [
         name: "Baizhu",
         wishimg: '',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "5",
         limited: false
     },
@@ -38,6 +43,7 @@ const thepool = [
         name: "Barbara",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/59cee661e980d9e4eca196402b582f36.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -45,6 +51,7 @@ const thepool = [
         name: "Beidou",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/61d7bcde77b8a06bb7a618524af9895c.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -52,6 +59,7 @@ const thepool = [
         name: "Bennett",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/72cb0799091868cbe69328e90e62f94b.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -59,6 +67,7 @@ const thepool = [
         name: "Candace",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/c9d510788a4db389817843334d14f18d.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -66,6 +75,7 @@ const thepool = [
         name: "Charlotte",
         wishimg: '',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png?x-oss-process=image%2Fformat%2Cwebp',
+        cardimg: '',
         stars: "4",
         limited: false
     },
@@ -164,7 +174,6 @@ const thepool = [
         name: "Gaming",
         wishimg: '',
         profileimg: 'https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png?x-oss-process=image%2Fformat%2Cwebp',
-        stars: "4",
         limited: false
     },
     {
@@ -190,7 +199,7 @@ const thepool = [
     },
     {
         name: "Jean",
-        wishimg: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a2212b9-af4a-4302-9499-08be7aaa7ff2/de8ydtr-38cf03b6-e1fd-4709-ab34-33f103d00a54.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFhMjIxMmI5LWFmNGEtNDMwMi05NDk5LTA4YmU3YWFhN2ZmMlwvZGU4eWR0ci0zOGNmMDNiNi1lMWZkLTQ3MDktYWIzNC0zM2YxMDNkMDBhNTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yTpoSVZDZwS5P4Vqha6fIe9VDITp3eidxE6YeIkWs1Y',
+        wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/2a70468b694ce53008386fe9987c7e83.png?x-oss-process=image%2Fformat%2Cwebp',
         stars: "5",
         limited: true
@@ -483,7 +492,7 @@ const thepool = [
         limited: false
     },
     {
-        name: "Xinyun",
+        name: "Xinyan",
         wishimg: '',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/13947038bb8df5ad8daa7c552aeb58d8.png?x-oss-process=image%2Fformat%2Cwebp',
         stars: "4",
@@ -533,129 +542,561 @@ const thepool = [
     },
     {
         name: "Zhongli",
-        wishimg: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a2212b9-af4a-4302-9499-08be7aaa7ff2/de9qu1t-e0abffa2-4380-465a-aed0-092db284a19e.jpg/v1/fill/w_1192,h_670,q_70,strp/zhongli__wish_art_hq__by_tkhan1_de9qu1t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzFhMjIxMmI5LWFmNGEtNDMwMi05NDk5LTA4YmU3YWFhN2ZmMlwvZGU5cXUxdC1lMGFiZmZhMi00MzgwLTQ2NWEtYWVkMC0wOTJkYjI4NGExOWUuanBnIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.62tQQKpwRHTMwT7II5t2LJk8U2-lCOh5LD2SOtytT0g',
+        wishimg: '',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png',
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Aquila Favonia ",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Skyward Blade",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Summit Shaper",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Primordial Jade Cutter",
+        wishimg: '',
+        profileimg: null, 
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Freedom Sworn",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Mistsplitter Reforged",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Haran Geppaku Futsu",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Key of Khaj-Nisut",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Light of Foliar Incision",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Splendor of Tranquil Waters",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Sword",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "A Thousand Floating Dreams",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Amos' Bow",
+        wishimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
         name: "Aqua Simulacra",
         wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
-        name: "",
+        name: "Beacon of the Reed Sea",
         wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
-        name: "",
+        name: "Calamity Queller",
         wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
-        name: "",
+        name: "Cashflow Supervision",
         wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
-        name: "",
+        name: "Crane's Echoing Call",
         wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
     {
-        name: "",
+        name: "Elegy for the End",
         wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
-        stars: "5",
-        limited: false
-    },
-    {
-        name: "",
-        wishimg: '',
-        profileimg: '',
+        profileimg: null,
         stars: "5",
         limited: false
     },
 
+    {
+        name: "Engulfing Lightning",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Everlasting Moonglow",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+
+    {
+        name: "Hunter's Path",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Jadefall's Splendor",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Kagura's Verity",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Lost Prayers to the Sacred Winds",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Memory of Dust",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Polar Star",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Primordial Jade Winged-Spear",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Redhorn Stonethresher",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Skyward Atlas",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Skywad Harp",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Skyward Blade",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Skyward Spine",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Song of Broken Pines",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Staff of Homa",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Staff of the Scarlet Sands",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The First Great Magic",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Unforged",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Thundering Pulse",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Tome of the Eternal Flow",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Tulaytullah's Rememberance",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Verdict",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Vortex Vanquisher",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Wolf's Gravestone",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Akuoumaru",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Alley Hunter",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Dragon's Bane",
+        wishimg: '',
+        profileimg: null, 
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Eye of Perception",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Codex",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Greatsword",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Lance",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Sword",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Favonius Warbow",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Lion's Roar",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Lithic Blade",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Lithic Spear",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Makhaira Aquamarine",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Mitternacht Waltz",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Mouun's Moon",
+        wishimg: '',
+        profileimg: null,  
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Portable Power Saw",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Prospector's Drill",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Rainslasher",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Range Gauge",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Rust",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Sacrificial Bow",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Sacraficial Fragments",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Sacraficial Greatsword",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Sacraficial Sword",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+
+        {
+        name: "The Alley Flash",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Bell",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Dockhand's Assistant",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Flute",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Stringless",
+        wishimg: '',
+        profileimg: null,
+        
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "The Widsith",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Wandering Evenstar",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Wavebreaker's Fin",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Wine and Song",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
+    {
+        name: "Xiphos' Moonlight",
+        wishimg: '',
+        profileimg: null,
+        stars: "5",
+        limited: false
+    },
 ]
+
+//wish template background thing https://pbs.twimg.com/media/ErZ-eN_XUAQeIhN.jpg:large
