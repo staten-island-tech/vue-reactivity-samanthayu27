@@ -9,9 +9,9 @@ const thepool = [
     },
     {
         name: "Alhaitham",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/alhatham_078_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/alhatham_078_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -25,17 +25,17 @@ const thepool = [
     },
     {
         name: "Arataki Itto",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/itto_057_gacha_splash.webp?x28602',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Arataki%2520Itto_icon.png',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/itto_057_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Baizhu",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/baizhuer_082_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/baizhuer_082_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -65,25 +65,25 @@ const thepool = [
     },
     {
         name: "Candace",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/candace_072_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/c9d510788a4db389817843334d14f18d.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/candace_072_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Charlotte",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/charlotte_088_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/charlotte_088_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Chevreuse",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/chevreuse_090_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/8cbaf1b000db247e384f5c8979619724.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/chevreuse_090_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -97,25 +97,25 @@ const thepool = [
     },
     {
         name: "Collei",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/collei_067_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/4da2bceaecdc6b95db44e00cfad2daf2.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/collei_067_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Cyno",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/cyno_071_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/cyno_071_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Dehya",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/dehya_079_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/7d1d3025ea6ef82d8da302d5aa972c10.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/dehya_079_gacha_card.webp?x28602',
         stars: "5",
         standard: true
     },
@@ -137,9 +137,9 @@ const thepool = [
     },
     {
         name: "Dori",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/dori_068_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/d67b40071c18495cff3a46bfbf9d61f1.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/dori_068_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -153,9 +153,9 @@ const thepool = [
     },
     {
         name: "Faruzan",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/faruzan_076_icon_70.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/10ae4ff19a542115b41e5a94678a5777.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/faruzan_076_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -169,25 +169,25 @@ const thepool = [
     },
     {
         name: "Freminet",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/freminet_085_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/ce8c1cfe3ade451fb5bddb50e9253e08.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/freminet_085_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Furina",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/furina_089_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/0ad6a10b5d6b0a823c4048fc7cd734e7.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/furina_089_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Gaming",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/gaming_092_gacha_splash.webp?x28602',
         profileimg: 'https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/gaming_092_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -201,9 +201,9 @@ const thepool = [
     },
     {
         name: "Gorou",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/gorou_055_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/50b3930cd5e4e6fc7889f29d15fc06dd.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/gorou_055_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -241,25 +241,25 @@ const thepool = [
     },
     {
         name: "Kamisato Ayaka",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/3eaa40af37fd729047f7a810baf9d58f.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Kamisato Ayato",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/ayato_066_gacha_splash.webp?x28602',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato%2520Ayato_icon.png',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/ayato_066_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Kaveh",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/kaveh_081_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/2330b14769f843c50b869da0b22ef260.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/kaveh_081_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -273,9 +273,9 @@ const thepool = [
     },
     {
         name: "Kirara",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/momoka_061_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/1cb3d7d4d65741943bbfd3eccffa36b4.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/momoka_061_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -289,25 +289,25 @@ const thepool = [
     },
     {
         name: "Kujou Sara",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/sara_056_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/99e63faff7c7b6982e64d6ea861a51d5.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/sara_056_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Kuki Shinobu",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/shinobu_065_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/64e4aa06d6d8985b56aee971d7fd7724.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/shinobu_065_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Layla",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/layla_074_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/5c9faf073e9703c61acf9f6777c47b73.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/layla_074_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -321,25 +321,25 @@ const thepool = [
     },
     {
         name: "Lynette",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/linette_083_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/7341da3f51143384b08fdeebae5365b6.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/linette_083_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Lyney",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/liney_084_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/liney_084_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Mika",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/mika_080_side_icon_70.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/ad4be577444a41051955f34310744c9c.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/mika_080_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -353,33 +353,33 @@ const thepool = [
     },
     {
         name: "Nahida",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/nahida_073_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/99e73b84df09a2a67b2a7f86ee0a0ec4.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/nahida_073_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Navia",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/navia_091_gacha_splash.webp?x28602',
         profileimg: 'https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/navia_091_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Neuvillette",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/neuvillette_087_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/35428890/0513aa7f482dbb4778545d02f94956fe_7540616405773975535.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/neuvillette_087_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Nilou",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/nilou_070_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/5075ed07a231b981c8865b6766365304.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/nilou_070_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -449,17 +449,17 @@ const thepool = [
     },
     {
         name: "Shenhe",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/shenhe_063_gacha_splash.webp?x28602',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/shenhe_063_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Shikanoin Heizou",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/heizo_059_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/25e949cbe4a3391246951b13aa1f0e09.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/heizo_059_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
@@ -489,9 +489,9 @@ const thepool = [
     },
     {
         name: "Tighnari",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/tighnari_069_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/22/35428890/497dd6fac3d3c652a367c67428550747_306268558608889633.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/tighnari_069_gacha_card.webp?x28602',
         stars: "5",
         standard: true
     },
@@ -505,17 +505,17 @@ const thepool = [
     },
     {
         name: "Wanderer",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/wanderer_075_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/wanderer_075_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Wriothesley",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/wriothesley_086_gacha_splash.webp?x28602',
         profileimg: 'https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/wriothesley_086_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -529,9 +529,9 @@ const thepool = [
     },
     {
         name: "Xianyun",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/liuyun_093_gacha_splash.webp?x28602',
         profileimg: 'https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/2c2be27f8876e9435ab8c8b933b8408c_7973851751945394462.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/liuyun_093_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -561,9 +561,9 @@ const thepool = [
     },
     {
         name: "Yae Miko",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/yae_058_gacha_splash.webp?x28602',
         profileimg: 'https://wiki.hoyolab.com/_ipx/f_webp/https://bbs.hoyolab.com/hoyowiki/picture/character/Yae%2520Miko_icon.png',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/yae_058_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -577,17 +577,17 @@ const thepool = [
     },
     {
         name: "Yaoyao",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/yaoyao_077_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/794e9009c2984a3d569d2690c2da1866.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/yaoyao_077_gacha_card.webp?x28602',
         stars: "4",
         standard: true
     },
     {
         name: "Yelan",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/yelan_060_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/e379019894dda29acc5fb6abfda4f815.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/yelan_060_gacha_card.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -601,9 +601,9 @@ const thepool = [
     },
     {
         name: "Yunjin",
-        wishimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/yunjin_064_gacha_splash.webp?x28602',
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/98276e51ffe135707af1088c4c2f45e7.png?x-oss-process=image%2Fformat%2Cwebp',
-        cardimg: '',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/yunjin_064_gacha_card.webp?x28602x',
         stars: "4",
         standard: true
     },
@@ -617,65 +617,65 @@ const thepool = [
     },
     {
         name: "Aquila Favonia",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11501_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11501.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11501_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Summit Shaper",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'v',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11504.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11504_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Primordial Jade Cutter",
-        wishimg: '',
-        profileimg: '', 
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11505_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11505.webp?x28602', 
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11505_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Freedom Sworn",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11503_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11503.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11503_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Mistsplitter Reforged",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11509_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11509.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11509_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Haran Geppaku Futsu",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11510_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11510.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11510_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Key of Khaj-Nisut",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11511_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11511.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11511_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
     {
         name: "Light of Foliar Incision",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11513_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11513.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11513_gacha_icon.webp?x28602',
         stars: "5",
         standard: false
     },
@@ -849,9 +849,9 @@ const thepool = [
     },
     {
         name: "Skyward Blade",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11502_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11502.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11502_gacha_icon.webp?x28602',
         stars: "5",
         standard: true
     },
@@ -1016,9 +1016,9 @@ const thepool = [
     },
     {
         name: "Favonius Sword",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11401_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11401.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11401_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
@@ -1032,9 +1032,9 @@ const thepool = [
     },
     {
         name: "Lion's Roar",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11405_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11405.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11405_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
@@ -1144,17 +1144,17 @@ const thepool = [
     },
     {
         name: "Sacraficial Sword",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11403_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11403.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11403_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
     {
         name: "The Alley Flash",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11410_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11410.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11410_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
@@ -1168,17 +1168,17 @@ const thepool = [
     },
     {
         name: "The Dockhand's Assistant",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11427_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11427.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11427_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
     {
         name: "The Flute",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11402_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11402.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11402_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
@@ -1224,9 +1224,9 @@ const thepool = [
     },
     {
         name: "Xiphos' Moonlight",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11418_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11418.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11418_gacha_icon.webp?x28602',
         stars: "4",
         standard: false
     },
@@ -1312,28 +1312,31 @@ const thepool = [
     },
     {
         name: "Cool Steel",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11301_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11301.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11301_gacha_icon.webp?x28602',
         stars: "3",
-        standard: false
+        standard: true
     },
     {
         name: "Harbinger of Dawn",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11302_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11302.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11302_gacha_icon.webp?x28602',
         stars: "3",
         standard: false
     },
     {
         name: "Skyrider Sword",
-        wishimg: '',
-        profileimg: '',
-        cardimg: '',
+        wishimg: 'https://genshin.honeyhunterworld.com/img/i_n11306_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n11306.webp?x28602',
+        cardimg: 'https://genshin.honeyhunterworld.com/img/i_n11306_gacha_icon.webp?x28602',
         stars: "3",
         standard: false
     },
 ]
 
 //wish template background thing https://pbs.twimg.com/media/ErZ-eN_XUAQeIhN.jpg:large
+//bacco 5 star : #99602d
+//bacco 4 star: #6c5f94 
+//bacco 3 star : #5392b8
