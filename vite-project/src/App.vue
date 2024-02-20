@@ -5,7 +5,8 @@ const banners = [
     banner: "VentiA", 
     rateupfivestar: "Venti",
     rateupfourstar: ["Barbara", "Fischl", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-genshin-banner-ever-first-venti-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-genshin-banner-ever-first-venti-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/venti_022_side_icon.webp?x54247'
   },
   {
     banner: "Amos' Bow/Aquila Favonia",
@@ -17,7 +18,8 @@ const banners = [
     banner: "KleeA", 
     rateupfivestar: "Klee",
     rateupfourstar: ["Noelle", "Sucrose", "Xingqiu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-klee-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-klee-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/klee_029_side_icon.webp?x54247'
   },
   {
     banner: "Lost Prayer to the Sacred Winds/Wolf's Gravestone",
@@ -29,7 +31,8 @@ const banners = [
     banner: "TartagliaA",
     rateupfivestar: "Tartaglia",
     rateupfourstar: ["Beidou", "Ningguang", "Diona"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-childe-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-childe-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tartaglia_033_side_icon.webp?x54247'
   },
   {
     banner: "Skyward Harp/Memory of Dust",
@@ -41,7 +44,8 @@ const banners = [
     banner: "ZhongliA", 
     rateupfivestar: "Zhongli",
     rateupfourstar: ["Chongyun", "Xinyan", "Razor"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-zhongli-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-zhongli-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/zhongli_030_side_icon.webp?x54247'
   },
   {
     banner: "Vortex Vanquisher/The Unforged",
@@ -53,7 +57,8 @@ const banners = [
     banner: "AlbedoA", 
     rateupfivestar: "Albedo",
     rateupfourstar: ["Bennett", "Fischl", "Sucrose"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-albedo-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-albedo-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/albedo_038_side_icon.webp?x54247'
   },
   {
     banner: "Summit Shaper/Skyward Atlas",
@@ -65,7 +70,8 @@ const banners = [
     banner: "GanyuA",
     rateupfivestar: "Ganyu",
     rateupfourstar: ["Xiangling", "Noelle", "Xingqiu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-ganyu-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-ganyu-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ganyu_037_side_icon.webp?x54247'
   },
   {
     banner: "Amos' Bow/Skyward Pride",
@@ -77,7 +83,8 @@ const banners = [
     banner: "XiaoA",
     rateupfivestar: "Xiao",
     rateupfourstar: ["Beidou", "Diona", "Xinyan"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-xiao-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/first-xiao-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/xiao_026_side_icon.webp?x54247'
   },
   {
     banner: "Primordial Jade Winged-Spear/Primordial Jade Cutter",
@@ -89,7 +96,8 @@ const banners = [
     banner: "KeqingA",
     rateupfivestar: "Keqing",
     rateupfourstar: ["Barbara", "Bennett", "Ningguang"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/keqing-banner-genshin-impact-dance-of-lanterns.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/keqing-banner-genshin-impact-dance-of-lanterns.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/keqing_042_side_icon.webp?x54247'
   },
   {
     banner: "Wolf's Gravestone/Staff of Homa",
@@ -107,7 +115,8 @@ const banners = [
     banner: "VentiB",
     rateupfivestar: "Venti",
     rateupfourstar: ["Noelle", "Razor", "Sucrose"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/venti-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/venti-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/venti_022_side_icon.webp?x54247'
   },
   {
     banner: "Elegy for the End/Skyward Blade",
@@ -119,7 +128,8 @@ const banners = [
     banner: "TartagliaB",
     rateupfivestar: "Tartaglia",
     rateupfourstar: ["Rosaria", "Barbara", "Fischl"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/childe-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/childe-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tartaglia_033_side_icon.webp?x54247'
   },
   {
     banner: "Skyward Harp/Lost Prayers to the Sacred Winds",
@@ -131,7 +141,8 @@ const banners = [
     banner: "ZhongliB",
     rateupfivestar: "Zhongli",
     rateupfourstar: ["Yanfei", "Diona", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/zhongli-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/zhongli-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/zhongli_030_side_icon.webp?x54247'
   },
   {
     banner: "Summit Shaper/Memory of Dust",
@@ -143,7 +154,8 @@ const banners = [
     banner: "EulaA", 
     rateupfivestar: "Eula",
     rateupfourstar: ["Beidou", "Xingqiu", "Xinyan"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/eula-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/eula-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/eula_051_side_icon.webp?x54247'
   },
   {
     banner: "Aquila Favonia/Song of Broken Pines",
@@ -155,7 +167,8 @@ const banners = [
     banner: "KleeB",
     rateupfivestar: "Klee",
     rateupfourstar: ["Barbara", "Fischl", "Sucrose"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/klee-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/klee-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/klee_029_side_icon.webp?x54247'
   },
   {
     banner: "Lost Prayers of the Sacred Winds, Skyward Pride",
@@ -167,7 +180,8 @@ const banners = [
     banner: "KazuhaA",
     rateupfivestar: "Kaedehara Kazuha",
     rateupfourstar: ["Bennett", "Razor", "Rosaria"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kazuha-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kazuha-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg:'https://genshin.honeyhunterworld.com/img/kazuha_047_side_icon.webp?x54247'
   },
   {
     banner: "Freedom Sworn/Skyward Atlas",
@@ -179,7 +193,8 @@ const banners = [
     banner: "AyakaA",
     rateupfivestar: "Kamisato Ayaka",
     rateupfourstar: ["Chongyun", "Ningguang", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/ayaka-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/ayaka-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_side_icon.webp?x54247'
   },
   {
     banner: "Mistsplitter Reforged/Skyward Spine",
@@ -191,7 +206,8 @@ const banners = [
     banner: "YoimiyaA",
     rateupfivestar: "Yoimiya",
     rateupfourstar: ["Sayu", "Diona", "Xinyan"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/yoimiya-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/yoimiya-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yoimiya_049_side_icon.webp?x54247'
   },
   {
     banner: "Thundering Pulse/Skyward Blade",
@@ -203,7 +219,8 @@ const banners = [
     banner: "RaidenShogunA",
     rateupfivestar: "Raiden Shogun",
     rateupfourstar: ["Kujou Sara", "Sucrose", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/raiden-shogun-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/raiden-shogun-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/shougun_052_side_icon.webp?x54247'
   },
   {
     banner: "The Unforged/Engulfing Lightning",
@@ -215,7 +232,8 @@ const banners = [
     banner: "KokomiA",
     rateupfivestar: "Sangonomiya Kokomi",
     rateupfourstar: ["Beidou", "Rosaria", "Xingqiu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kokomi-debut-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kokomi-debut-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kokomi_054_side_icon.webp?x54247'
   },
   {
     banner: "Primordial Jade Cutter/Everlasting Moonglow",
@@ -227,7 +245,8 @@ const banners = [
     banner: "TartagliaC",
     rateupfivestar: "Tartaglia",
     rateupfourstar: ["Chongyun", "Ningguang", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/childe-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/childe-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tartaglia_033_side_icon.webp?x54247'
   },
   {
     banner: "Polar Star/Memory of Dust",
@@ -251,13 +270,15 @@ const banners = [
     banner: "EulaB",
     rateupfivestar: "Eula",
     rateupfourstar: ["Bennett", "Rosaria", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/eula-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/eula-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/eula_051_side_icon.webp?x54247'
   },
   {
     banner: "AlbedoB",
     rateupfivestar: "Albedo",
     rateupfourstar: ["Bennett", "Rosaria", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/albedo-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/albedo-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimge: 'https://genshin.honeyhunterworld.com/img/albedo_038_side_icon.webp?x54247'
   },
   {
     banner: "Freedom Sworn/Song of Broken Pines",
@@ -269,7 +290,8 @@ const banners = [
     banner: "IttoA",
     rateupfivestar: "Arataki Itto",
     rateupfourstar: ["Gorou", "Barbara", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/itto_057_side_icon.webp?x54247'
   },
   {
     banner: "Skyward Harp/Redhorn Stonethresher",
@@ -287,7 +309,8 @@ const banners = [
     banner: "XiaoB",
     rateupfivestar: "Xiao",
     rateupfourstar: ["Chongyun", "Ningguang", "Yunjin"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/xiao_026_side_icon.webp?x54247'
   },
   {
     banner: "Calamity Queller/Primordial Jade Winged-Spear",
@@ -299,13 +322,15 @@ const banners = [
     banner: "ZhongliC",
     rateupfivestar: "Zhongli",
     rateupfourstar: ["Xingqiu", "Beidou", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/zhongli-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/zhongli-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/zhongli_030_side_icon.webp?x54247'
   },
   {
     banner: "GanyuB",
     rateupfivestar: "Ganyu",
     rateupfourstar: ["Xingqiu", "Beidou", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ganyu_037_side_icon.webp?x54247'
   },
   {
     banner: "Vortex Vanquisher/Amos' Bow",
@@ -317,7 +342,8 @@ const banners = [
     banner: "YaeMikoA",
     rateupfivestar: "Yae Miko", 
     rateupfourstar: ["Thoma", "Fischl", "Diona"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yae_058_side_icon.webp?x54247'
   },
   {
     banner: "Kagura's Verity/Primordial Jade Cutter",
@@ -329,13 +355,15 @@ const banners = [
     banner: "RaidenShogunB",
     rateupfivestar: "Raiden Shogun",
     rateupfourstar: ["Bennett", "Kujou Sara", "Xinyan"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/raiden-shogun-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/raiden-shogun-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/shougun_052_side_icon.webp?x54247'
   }, 
   {
     banner: "KokomiB",
     rateupfivestar: "Sangonomiya Kokomi",
     rateupfourstar: ["Bennett", "Kujou Sara", "Xinyan"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kokomi-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kokomi-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kokomi_054_side_icon.webp?x54247'
   },
   {
     banner: "Everlasting Moonglow/Engulfing Lightning",
@@ -347,13 +375,15 @@ const banners = [
     banner: "AyatoA",
     rateupfivestar: "Kamisato Ayato",
     rateupfourstar: ["Sucrose", "Xiangling", "Yunjin"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayato-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayato-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayato_066_side_icon.webp?x54247'
   },
   {
     banner: "VentiC",
     rateupfivestar: "Venti",
     rateupfourstar: ["Sucrose", "Xiangling", "Yunjin"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/venti-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/venti-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/venti_022_side_icon.webp?x54247'
   },
   {
     banner: "Haran Geppaku Futsu/Elegy for the End ",
@@ -365,7 +395,8 @@ const banners = [
     banner: "AyakaB",
     rateupfivestar: "Kamisato Ayaka",
     rateupfourstar: ["Razor", "Rosaria", "Sayu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayaka-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayaka-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_side_icon.webp?x54247'
   },
   {
     banner: "Mistsplitter Reforged/The Unforged",
@@ -377,7 +408,8 @@ const banners = [
     banner: "XiaoC",
     rateupfivestar: "Xiao",
     rateupfourstar: ["Yanfei", "Barbara", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/xiao_026_side_icon.webp?x54247'
   },
   {
     banner: "YelanA",
@@ -395,7 +427,8 @@ const banners = [
     banner: "IttoB",
     rateupfivestar: "Arataki Itto",
     rateupfourstar: ["Kuki Shinobu", "Gorou", "Chongyun"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/itto_057_side_icon.webp?x54247'
   },
   {
     banner: "Redhorn Stonetresher/Memory of Dust",
@@ -407,13 +440,15 @@ const banners = [
     banner: "KleeC", 
     rateupfivestar: "Klee",
     rateupfourstar: ["Shikanoin Heizou","Thoma", "Ningguang"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/klee-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/klee-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/klee_029_side_icon.webp?x54247'
   },
   {
     banner: "KazuhaB",
     rateupfivestar: "Kaedehara Kazuha",
     rateupfourstar: ["Shikanoin Heizou","Thoma", "Ningguang"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kazuha-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kazuha-first-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kazuha_047_side_icon.webp?x54247'
   },
   {
     banner: "Freedom Sworn/Lost Prayer to the Sacred Winds",
@@ -425,7 +460,8 @@ const banners = [
     banner: "YoimiyaB", 
     rateupfivestar: "Yoimiya",
     rateupfourstar: ["Yunjin", "Xinyan", "Bennett"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yoimiya_049_side_icon.webp?x54247'
   },
   {
     banner: "Thundering Pulse/Summit Shaper",
@@ -437,13 +473,15 @@ const banners = [
     banner: "ZhongliD",
     rateupfivestar: "Zhongli",
     rateupfourstar: ["Collei", "Diona", "Fischl"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/zhongli-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/zhongli-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/zhongli_030_side_icon.webp?x54247'
   },
   {
     banner: "TighnariA",
     rateupfivestar: "Tighnari",
     rateupfourstar: ["Collei", "Diona", "Fischl"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/tighnari-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/tighnari-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tighnari_069_side_icon.webp?x54247'
   },
   {
     banner: "Hunter's Path/Vortex Vanquisher",
@@ -455,13 +493,15 @@ const banners = [
     banner: "GanyuC",
     rateupfivestar: "Ganyu",
     rateupfourstar: ["Dori", "Xingqiu", "Surcose"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ganyu_037_side_icon.webp?x54247'
   },
   {
     banner: "KokomiC",
     rateupfivestar: "Sangonomiya Kokomi",
     rateupfourstar: ["Dori", "Xingqiu", "Surcose"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kokomi-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/kokomi-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kokomi_054_side_icon.webp?x54247'
   },
   {
     banner: "Amos' Bow/Everlasting Moonglow",
@@ -473,13 +513,15 @@ const banners = [
     banner: "CynoA",
     rateupfivestar: "Cyno",
     rateupfourstar: ["Candace", "Kuki Shinobu", "Sayu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/cyno-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/cyno-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/cyno_071_side_icon.webp?x54247'
   },
   {
     banner: "VentiD",
     rateupfivestar: "Venti",
     rateupfourstar: ["Candace", "Kuki Shinobu", "Sayu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/venti-third-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/venti-third-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/venti_022_side_icon.webp?x54247'
   },
   {
     banner: "Elegy for the End/Staff of the Scarlet Sands",
@@ -491,13 +533,15 @@ const banners = [
     banner: "AlbedoC",
     rateupfivestar: "Albedo",
     rateupfourstar: ["Barbara", "Beidou", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/albedo-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/albedo-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://lh3.googleusercontent.com/drive-viewer/AEYmBYSSEHK7zcrSE-DNT5nNnpcMWwC_U8FtxBSF0w71AGh_1RPIMKYIx6w0u-dejEKWLqZo_-xTWb6jVh8D_qBUnqdTZu8-Kw=w2880-h1376'
   },
   {
     banner: "NilouA",
     rateupfivestar: "Nilou",
     rateupfourstar: ["Barbara", "Beidou", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nilou-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nilou-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/nilou_070_side_icon.webp?x54247'
   },
   {
     banner: "Key of Khaj Nisut/Primordial Jade Cutter",
@@ -509,13 +553,15 @@ const banners = [
     banner: "YoimiyaC", 
     rateupfivestar: "Yoimiya", 
     rateupfourstar: ["Bennett", "Razor", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yoimiya_049_side_icon.webp?x54247'
   }, 
   {
     banner: "NahidaA",
     rateupfivestar: "Nahida",
     rateupfourstar: ["Bennett", "Razor", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nahida-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nahida-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/nahida_073_side_icon.webp?x54247'
   },
   {
     banner: "Thundering Pulse/A Thousand Floating Dreams",
@@ -527,13 +573,15 @@ const banners = [
     banner: "YaeMikoB",
     rateupfivestar: "Yae Miko",
     rateupfourstar: ["Layla", "Thoma", "Shikanoin Heizou"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yae_058_side_icon.webp?x54247'
   },
   {
     banner: "TartagliaD",
     rateupfivestar: "Tartaglia", 
     rateupfourstar: ["Layla", "Thoma", "Shikanoin Heizou"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/childe-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/childe-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tartaglia_033_side_icon.webp?x54247'
   },
   {
     banner: "Kagura's Verity/Polar Star",
@@ -545,13 +593,15 @@ const banners = [
     banner: "IttoC",
     rateupfivestar: "Arataki Itto",
     rateupfourstar: ["Faruzan", "Gorou", "Yanfei"],
-    bannerimg:'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg:'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/itto-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/itto_057_side_icon.webp?x54247'
   },
   {
     banner: "WandererA",
     rateupfivestar: "Wanderer",
     rateupfourstar: ["Faruzan", "Gorou", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/wanderer-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/wanderer-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/wanderer_075_side_icon.webp?x54247'
   },
   {
     banner: "Tulaytullah's Remembrance/Redhorn Stonethresher",
@@ -563,13 +613,15 @@ const banners = [
     banner: "AyatoB",
     rateupfivestar: "Kamisato Ayato",
     rateupfourstar: ["Kujou Sara", "Sayu", "Rosaria"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayato-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayato-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayato_066_side_icon.webp?x54247'
   },
   {
     banner: "RaidenShogunC",
     rateupfivestar: "Raiden Shogun",
     rateupfourstar: ["Kujou Sara", "Sayu", "Rosaria"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/raiden-shogun-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/raiden-shogun-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/shougun_052_side_icon.webp?x54247'
   },
   {
     banner: "Haran Geppaku Futsu/Engulfing Lightning",
@@ -581,13 +633,15 @@ const banners = [
     banner: "XiaoD",
     rateupfivestar: "Xiao",
     rateupfourstar: ["YaoYao", "Xinyan", "Yunjin"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-banner-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/xiao-banner-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/xiao_026_side_icon.webp?x54247'
   },
   {
     banner: "AlhaithamA",
     rateupfivestar: "Alhaitham",
     rateupfourstar: ["YaoYao", "Xinyan", "Yunjin"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/alhaitham-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/alhaitham-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/alhatham_078_side_icon.webp?x54247'
   },
   {
     banner: "Light of Foliar Incision/Primordial Jade Winged Spear",
@@ -617,13 +671,15 @@ const banners = [
     banner: "CynoB",
     rateupfivestar: "Cyno",
     rateupfourstar: ["Bennett", "Collei", "Barbara"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/cyno-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/cyno-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/cyno_071_side_icon.webp?x54247'
   },
   {
     banner: "DehyaA",
     rateupfivestar: "Dehya",
     rateupfourstar: ["Bennett", "Collei", "Barbara"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/dehya-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/dehya-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/dehya_079_side_icon.webp?x54247'
   },
   {
     banner: "Staff of the Scarlet Sands/Beacon of the Reed Sea",
@@ -635,7 +691,8 @@ const banners = [
     banner: "AyakaC",
     rateupfivestar: "Kamisato Ayaka",
     rateupfourstar: ["Mika", "Sucrose", "Diona"], 
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayaka-banner-3-5.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ayaka-banner-3-5.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_side_icon.webp?x54247'
   },
   {
     banner: "ShenheB",
@@ -653,13 +710,15 @@ const banners = [
     banner: "NilouB",
     rateupfivestar: "Nilou",
     rateupfourstar: ["Kuki Shinobu", "Layla", "Dori"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nilou-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nilou-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/nilou_070_side_icon.webp?x54247'
   },
   {
     banner: "NahidaB",
     rateupfivestar: "Nahida",
     rateupfourstar: ["Kuki Shinobu", "Layla", "Dori"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nahida-rerun-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/nahida-rerun-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/nahida_073_side_icon.webp?x54247'
   },
   {
     banner: "Key of Khaj Nisut/A Thousand Floating Dreams",
@@ -671,13 +730,15 @@ const banners = [
     banner: "BaizhuA",
     rateupfivestar: "Baizhu",
     rateupfourstar: ["Kaveh", "Candace", "Fishcl"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/baizhu-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/baizhu-event-wish.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/baizhuer_082_side_icon.webp?x54247'
   },
   {
     banner: "GanyuD",
     rateupfivestar: "Ganyu",
     rateupfourstar: ["Kaveh", "Candace", "Fishcl"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-event-wish-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/ganyu-event-wish-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ganyu_037_side_icon.webp?x54247'
   },
   {
     banner: "Amos' Bow/Jadefall's Splendor",
@@ -689,13 +750,15 @@ const banners = [
     banner: "YaeMikoC",
     rateupfivestar: "Yae Miko",
     rateupfourstar: ["Kirara", "Yunjin", "Chongyun"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yae-miko-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yae_058_side_icon.webp?x54247'
   },
   {
     banner: "YoimiyaD",
     rateupfivestar: "Yoimiya",
     rateupfourstar: ["Kirara", "Yunjin", "Chongyun"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/05/yoimiya-banner-genshin-impact.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yoimiya_049_side_icon.webp?x54247'
   },
   {
     banner: "Thundering Pulse/Kagura's Verity",
@@ -707,13 +770,15 @@ const banners = [
     banner: "AlhaithamB", 
     rateupfivestar: "Alhaitham",
     rateupfourstar: ["YaoYao", "Shikanoin Heizou", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/alhaitham-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/alhaitham-first-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/alhatham_078_side_icon.webp?x54247'
   },
   {
     banner: "KazuhaC",
     rateupfivestar: "Kaedehara Kazuha",
     rateupfourstar: ["YaoYao", "Shikanoin Heizou", "Xiangling"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kazuha-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/kazuha-second-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kazuha_047_side_icon.webp?x54247'
   },
   {
     banner: "Freedom Sworn/Light of Foliar Incision",
@@ -725,13 +790,15 @@ const banners = [
     banner: "KleeD", 
     rateupfivestar: "Klee",
     rateupfourstar: ["Mika", "Thoma", "Razor"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/klee-third-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/klee-third-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/klee_029_side_icon.webp?x54247'
   },
   {
     banner: "EulaC",
     rateupfivestar: "Eula",
     rateupfourstar: ["Mika", "Thoma", "Razor"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/eula-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/eula-second-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/eula_051_side_icon.webp?x54247'
   },
   {
     banner: "Song of Broken Pines/Lost Prayer to the Sacred Winds",
@@ -743,13 +810,15 @@ const banners = [
     banner: "WandererB",
     rateupfivestar: "Wanderer",
     rateupfourstar: ["Faruzan", "Rosaria", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/scaramouche-wanderer-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/scaramouche-wanderer-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/wanderer_075_side_icon.webp?x54247'
   },
   {
     banner: "KokomiD",
     rateupfivestar: "Sangonomiya Kokomi",
     rateupfourstar: ["Faruzan", "Rosaria", "Yanfei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/kokomi-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/kokomi-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/kokomi_054_side_icon.webp?x54247'
   },
   {
     banner: "Everlasting Moonglow/Tulaytullah's Remembrance",
@@ -767,7 +836,8 @@ const banners = [
     banner: "LyneyA",
     rateupfivestar: "Lyney",
     rateupfourstar: ["Lynette", "Bennett", "Barbara"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/lyney-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/lyney-first-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/liney_084_side_icon.webp?x54247'
   },
   {
     banner: "The First Great Magic/Aqua Simulacra",
@@ -779,13 +849,15 @@ const banners = [
     banner: "TartagliaE",
     rateupfivestar: "Tartaglia",
     rateupfourstar: ["Freminet", "Sayu", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/childe-fourth-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/childe-fourth-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/tartaglia_033_side_icon.webp?x54247'
   },
   {
     banner: "ZhongliE", 
     rateupfivestar: "Zhongli",
     rateupfourstar: ["Freminet", "Sayu", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/zhongli-fourth-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/zhongli-fourth-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/zhongli_030_side_icon.webp?x54247'
   },
   {
     banner: "Vortex Vanquisher/Polar Star",
@@ -803,7 +875,8 @@ const banners = [
     banner: "NeuvilletteA",
     rateupfivestar: "Neuvilette",
     rateupfourstar: ["Xingqiu", "Fishcl", "Diona"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/neuvillette-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/neuvillette-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/neuvillette_087_side_icon.webp?x54247'
   },
   {
     banner: "Staff of Homa/Tome of the Eternal Flow",
@@ -815,13 +888,15 @@ const banners = [
     banner: "VentiE",
     rateupfivestar: "Venti",
     rateupfourstar: ["Thoma", "Chongyun", "Dori"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/venti-rerun-4-1-1.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/venti-rerun-4-1-1.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/venti_022_side_icon.webp?x54247'
   },
   {
     banner: "WriothesleyA",
     rateupfivestar: "Wriothesley",
     rateupfourstar: ["Thoma", "Chongyun", "Dori"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/wriothesley-first-banner-1.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/wriothesley-first-banner-1.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/wriothesley_086_side_icon.webp?x54247'
   },
   {
     banner: "Elegy for the End/Cashflow Supervision",
@@ -833,13 +908,15 @@ const banners = [
     banner: "BaizhuB",
     rateupfivestar: "Baizhu",
     rateupfourstar: ["Charlotte", "Beidou", "Collei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/baizhu-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/baizhu-rerun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/baizhuer_082_side_icon.webp?x54247'
   },
   {
     banner: "FurinaA",
     rateupfivestar: "Furina",
     rateupfourstar: ["Charlotte", "Beidou", "Collei"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/furina-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/furina-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/furina_089_side_icon.webp?x54247'
   },
   {
     banner: "Splendor of Tranquil Waters/Jadefall's Splendor",
@@ -851,13 +928,15 @@ const banners = [
     banner: "AyatoC",
     rateupfivestar: "Ayato",
     rateupfourstar: ["Kirara", "Xiangling", "Kuki Shinobu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/ayato-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/ayato-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayato_066_side_icon.webp?x54247'
   },
   {
     banner: "CynoC",
     rateupfivestar: "Cyno",
     rateupfourstar: ["Kirara", "Xiangling", "Kuki Shinobu"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/cyno-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/11/cyno-rerun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/cyno_071_side_icon.webp?x5424'
   },
   {
     banner: "Haran Geppaku Futsu/Staff of the Scarlet Sands",
@@ -869,13 +948,15 @@ const banners = [
     banner: "AyakaD",
     rateupfivestar: "Kamisato Ayaka",
     rateupfourstar: ["Sucrose", "Candace", "Rosaria"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/ayaka-rerun-4-3.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/ayaka-rerun-4-3.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/ayaka_002_side_icon.webp?x54247'
   },
   {
     banner: "NaviaA",
     rateupfivestar: "Navia",
     rateupfourstar: ["Sucrose", "Candace", "Rosaria"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/in-the-name-of-the-rosula.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/in-the-name-of-the-rosula.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/navia_091_side_icon.webp?x54247'
   },
   {
     banner: "Verdict/Mistsplitter Reforged",
@@ -887,13 +968,15 @@ const banners = [
     banner: "YoimiyaE",
     rateupfivestar: "Yoimiya",
     rateupfourstar: ["Chevreuse","Bennett", "Kujou Sara"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/tapestry-of-golden-flames-yoimiya.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/tapestry-of-golden-flames-yoimiya.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yoimiya_049_side_icon.webp?x54247'
   },
   {
     banner: "RaidenShogunD",
     rateupfivestar: "Raiden Shogun",
     rateupfourstar: ["Chevreuse","Bennett", "Kujou Sara"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/reign-of-serenity-raiden-shogun.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/reign-of-serenity-raiden-shogun.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/shougun_052_side_icon.webp?x54247'
   },
   {
     banner: "Thundering Pulse/Engulfing Lightning",
@@ -905,13 +988,15 @@ const banners = [
     banner: "NahidaC", 
     rateupfivestar: "Nahida",
     rateupfourstar: ["Gaming", "Faruzan", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/nahida-rerun-4-4.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/nahida-rerun-4-4.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/nahida_073_side_icon.webp?x54247'
   },
   {
     banner: "XianyunA",
     rateupfivestar: "Xianyun",
     rateupfourstar: ["Gaming", "Faruzan", "Noelle"],
-    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/xianyun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5'
+    bannerimg: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/xianyun-banner.jpg?q=50&fit=crop&w=1500&dpr=1.5',
+    sideimg: 'https://genshin.honeyhunterworld.com/img/liuyun_093_side_icon.webp?x54247'
   },
   {
     banner: "A Thousand Floating Dreams/Crane's Echoing Call",
@@ -923,13 +1008,15 @@ const banners = [
     banner: "YaeMikoD",
     rateupfivestar: "Yae Miko",
     rateupfourstar: ["YaoYao", "Xinyan", "Ningguang"],
-    bannerimg: null
+    bannerimg: null,
+    sideimg: 'https://genshin.honeyhunterworld.com/img/yae_058_side_icon.webp?x54247'
   },
   {
     banner: "XiaoE",
     rateupfivestar: "Xiao",
     rateupfourstar: ["YaoYao", "Xinyan", "Ningguang"],
-    bannerimg: null
+    bannerimg: null,
+    sideimg: 'https://genshin.honeyhunterworld.com/img/xiao_026_side_icon.webp?x54247'
   }, 
   {
     banner: "Kagura's Verity/Primordial Jade Winged Spear",
