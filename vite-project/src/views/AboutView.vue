@@ -2517,10 +2517,6 @@
     },
   ];
   
-  const baccocolors = [
-    {id: 4 , color: '#6c5f94'},
-    {id: 5, color: '#99602d'}
-  ]
   </script>
   
   <style scoped></style>

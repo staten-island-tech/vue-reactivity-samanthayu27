@@ -6,6 +6,9 @@
       <button class = "moreinfo">More info</button>
     </div>
   </div>
+
+<!--   a modal is a popup/window thingy, add on here so that if the user clicks the moreinfo thing info comes up-->
+
   </template>
   
   <script setup>
@@ -13,17 +16,6 @@
   const props = defineProps({
     Destination: Object,
   });
-
-/*   function baccocolorcard(stars) {
-    if (stars === 4) {
-        return '#6c5f94';
-    } else if (stars === 5) {
-        return '#99602d';
-    } else {
-        return '#5392b8';
-    }
-}  no worky :(*/
-
 
   </script>
   
