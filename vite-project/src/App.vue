@@ -1,3 +1,23 @@
+<template>
+  <header>
+    <nav>
+        <RouterLink to="/">Wish</RouterLink>
+        <RouterLink to="/about">Index</RouterLink>
+      </nav>
+
+    <div class="wrapper">
+      <h1>Banners</h1>
+     </div>
+     <div class = "bannercontainer">
+    <div class = "bannercards">
+
+    </div>
+  </div>
+  </header>
+
+  <RouterView />
+</template>
+
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 const banners = [
@@ -1026,22 +1046,6 @@ const banners = [
   },
 ]
 </script>
-
-<template>
-  <header>
-
-    <nav>
-        <RouterLink to="/">Wish</RouterLink>
-        <RouterLink to="/about">Index</RouterLink>
-      </nav>
-
-    <div class="wrapper">
-      <h1>Banners</h1>
-     </div>
-  </header>
-
-  <RouterView />
-</template>
 
 <style scoped>
 header {
