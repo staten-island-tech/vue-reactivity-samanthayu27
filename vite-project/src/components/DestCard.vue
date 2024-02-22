@@ -7,8 +7,6 @@
     </div>
   </div>
 
-<!--   a modal is a popup/window thingy, add on here so that if the user clicks the moreinfo thing info comes up-->
-
   </template>
   
   <script setup>
