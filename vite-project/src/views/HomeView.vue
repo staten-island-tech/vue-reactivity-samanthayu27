@@ -29,7 +29,6 @@ import { ref } from 'vue';
 
 const history = ref(false);
 const details = ref(false);
-let nofourstarcount = 0;
 
 const showhistorypopup = () => {
   history.value = true;
@@ -51,6 +50,8 @@ const onepull = () => {
 const tenpull = () => {
   multipull();
 };
+
+let nofourstarcount = 0;
 
 const wishrates = () => {
   const threefourfivedeterminator = Math.floor(Math.random() * 1000) + 1;
@@ -154,6 +155,8 @@ const multipull = () => {
   border: 2px solid #ddc78e;
   background-color: white;
   border-radius: 12px;
+  top: 0;
+  left: 0;
 }
 
 .poopup {

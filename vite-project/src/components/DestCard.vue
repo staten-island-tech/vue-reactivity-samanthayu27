@@ -1,45 +1,40 @@
 <template>
-  <div class = "cardcontainer">
-    <div class = "card">
-      <h2>{{ Destination.name }}</h2>
+  <div class="card">
+    <div class = "backgroundimgcolor">
       <img :src="Destination.profileimg" alt="" />
-      <button class = "moreinfo">More info</button>
     </div>
+    <h2>{{ Destination.name }}</h2>
   </div>
+</template>
 
-  </template>
-  
-  <script setup>
-  const props = defineProps({
-    Destination: Object,
-  });
+<script setup>
+const props = defineProps({
+  Destination: Object,
+});
+</script>
 
-  </script>
-  
-  <style scoped>
-  img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-  }
+<style scoped>
+img {
+  width: 150px;
+  height: 150px;
+}
 
-  .cardcontainer{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-   justify-content: space-around;
-/*    smthg spicys going on here  */
-  }
+.card {
+  height: 220px;
+  width: 200px;
+  border-radius: 12px;
+  padding: 2%;
+  margin: 0.5rem 0.5rem;
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .card{
-    height: 375px;
-    width: 250px;
-    text-align: center;
-  }
-
-  .moreinfo{
-    border-radius: 10px;
-    padding: 10px 24px;
-  }
-  </style>
+.backgroundimgcolor {
+  background-color: #77669c;
+/*   #a0652e
+#567697 */
+  border-radius: 12px;
+}
+</style>

@@ -1,14 +1,14 @@
 <template>
-    <div>
+    <div class = "indexcontainer">
       <DestCard
         v-for="destination in destinations"
         :key="destination.name"
         :Destination="destination"
       />
     </div>
-  </template>
+</template>
   
-  <script setup>
+<script setup>
   import DestCard from "@/components/DestCard.vue";
   const destinations = [
   {
@@ -1318,7 +1318,7 @@
     {
         name: "Amos' Bow",
         wishimg: 'https://genshin.honeyhunterworld.com/img/i_n15502_gacha_icon.webp?x28602',
-        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n15502_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n15502.webp?x33316',
         cardimg: 'https://genshin.honeyhunterworld.com/img/i_n15502_gacha_icon.webp?x28602',
         type: "Bow",
         desc: "",
@@ -1333,7 +1333,7 @@
     {
         name: "Aqua Simulacra",
         wishimg: 'https://genshin.honeyhunterworld.com/img/i_n15508_gacha_icon.webp?x28602',
-        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n15508_gacha_icon.webp?x28602',
+        profileimg: 'https://genshin.honeyhunterworld.com/img/i_n15508.webp?x33316',
         cardimg: 'https://genshin.honeyhunterworld.com/img/i_n15508_gacha_icon.webp?x28602',
         type: "Bow",
         desc: "",
@@ -2515,8 +2515,14 @@
         stars: "3",
         standard: true
     },
-  ];
-  
-  </script>
-  
-  <style scoped></style>
+];
+</script>
+
+<style scoped>
+.indexcontainer{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: space-around;
+  align-items: center;
+}
+</style>
