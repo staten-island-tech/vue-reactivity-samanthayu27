@@ -3,6 +3,7 @@
     <div class = "backgroundimgcolor">
       <img :src="Destination.profileimg" alt="" />
     </div>
+    <h2>•---------•</h2>
     <h2>{{ Destination.name }}</h2>
   </div>
 </template>
@@ -11,6 +12,7 @@
 const props = defineProps({
   Destination: Object,
 });
+
 </script>
 
 <style scoped>
@@ -20,7 +22,7 @@ img {
 }
 
 .card {
-  height: 220px;
+  height: 240px;
   width: 200px;
   border-radius: 12px;
   padding: 2%;
@@ -28,7 +30,8 @@ img {
   background-color: #708090;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  filter: grayscale(100%);
 }
 
 .backgroundimgcolor {
@@ -37,4 +40,5 @@ img {
 #567697 */
   border-radius: 12px;
 }
+
 </style>

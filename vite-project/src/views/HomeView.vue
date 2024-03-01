@@ -1,10 +1,13 @@
 <template>
   <main> 
-    <button class="shopbutton">Shop</button>
-    <button class="detailsbutton" @click="showdetailspopup">Details</button>
-    <button class="historybutton" @click="showhistorypopup">History</button>
-    <button class="onepullbutton" @click="onepull">Wish x1</button>
-    <button class="tenpullbutton" @click="tenpull">Wish x10</button>
+    <body>
+      <div class = "buttonstuff">
+      <button class="shopbutton">Shop</button>
+      <button class="detailsbutton" @click="showdetailspopup">Details</button>
+      <button class="historybutton" @click="showhistorypopup">History</button>
+      <button class="onepullbutton" @click="onepull">Wish x1</button>
+      <button class="tenpullbutton" @click="tenpull">Wish x10</button>
+    </div>
 
     <div v-if="history" class="poopup">
       <button class="eXit" @click="exitpopup">X</button>
@@ -21,6 +24,7 @@
         Event Wish “{banner name}” is now available. During this event wish, the red{event exclusive} character “alt name” real name(element color) as well as four-star characters “alt name” real name(element color),“alt name” real name(element color), and “alt name” real name(element color) will get a red{huge drop rate boost}! 
       </h2>
     </div>
+    </body>
   </main>
 </template>
 
@@ -155,8 +159,6 @@ const multipull = () => {
   border: 2px solid #ddc78e;
   background-color: white;
   border-radius: 12px;
-  top: 0;
-  left: 0;
 }
 
 .poopup {
@@ -177,8 +179,21 @@ const multipull = () => {
 }
 
 .eXit {
-  position: absolute;
   right: 10px;
   top: 5px;
 }
+.buttonstuff {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 900;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/6e/07/40/6e07404c185b3d8c57a83f52dad8d47c.jpg");
+  height: 100vh; 
+  width: 100vw; 
+  margin: 0;
+}
+
 </style>
