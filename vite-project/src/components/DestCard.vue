@@ -1,11 +1,14 @@
 <template>
-  <div class="card">
-    <div class="backgroundimgcolor">
+  <div :class="{ pulled: Destination.pulled }">
+    <div class="card">
+      <div class="backgroundimgcolor">
       <img :src="Destination.profileimg" alt="" />
     </div>
     <h2>•---------•</h2>
     <h2>{{ Destination.name }}</h2>
   </div>
+    </div>
+
 </template>
 
 <script setup>
@@ -44,5 +47,9 @@ img {
 
 body {
   margin: 0;
+}
+
+.pulled {
+  filter: grayscale(0);
 }
 </style>

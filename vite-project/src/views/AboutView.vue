@@ -1,5 +1,8 @@
 <template>
     <div class = "indexcontainer">
+        <div class = "header">
+            <h1>Pulled Characters</h1>
+        </div>
       <DestCard
         v-for="destination in destinations"
         :key="destination.name"
@@ -19,12 +22,12 @@
         type: "Pyro",
         desc: "Always energetic and full of life, Amber's the best — albeit only — Outrider of the Knights of Favonius.",
         birthday: "August 10th",
-        obtainableby: "Standard Banner",
+        obtainableby: "pulled Banner",
         title: "Gliding Champion",
         altname: "Outrider",
         constellation: "Lepus",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Barbara",
@@ -34,12 +37,12 @@
         type: "Hydro",
         desc: "Every citizen of Mondstadt adores Barbara. She learned the word 'idol' from a magazine.",
         birthday: "July 5th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Deaconess",
         altname: "Shining Idol",
         constellation: "Crater",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Beidou",
@@ -49,12 +52,12 @@
         type: "Electro",
         desc: "Captain of her crew, The Crux. She's quite an unbound and forthright woman.",
         birthday: "Febuary 14th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Queen of the Crux Fleet",
         altname: "Uncrowned Lord of the Ocean",
         constellation: "Victor Mare",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Bennett",
@@ -64,12 +67,12 @@
         type: "Pyro",
         desc: "An orphan discovered by an elderly adventurer as a baby, Bennett was raised in Mondstadt's Adventurers' Guild. He is the one and only member of 'Benny's Adventure Team,' as everyone else left the team after experiencing the constant misfortune that follows him.",
         birthday: "Febuary 29th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Leader of Benny's Adventure Team",
         altname: "Trial by Fire",
         constellation: "Rota Calamitas",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Candace",
@@ -79,12 +82,12 @@
         type: "Hydro",
         desc: "The scion of Al-Ahmar and the Guardian of Aaru Village, Candace is kind to travelers who visit, but is unforgiving to those who violate the village's rules.",
         birthday: "May 3rd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Guardian of Aaru Village",
         altname: "Golden Vow",
         constellation: "Sagitta Scutum",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Charlotte",
@@ -94,12 +97,12 @@
         type: "Cryo",
         desc: "A journalist from The Steambird, Charlotte is always on the prowl for an exclusive scoop. Ever so relentless and indefatigable, she won't stop until she finds out the truth, even if she comes closer to danger.",
         birthday: "April 10th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Reporter of The Steambird",
         altname: "Lens of Verity",
         constellation: "Hualina Veritas",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Chevreuse",
@@ -109,12 +112,12 @@
         type: "Pyro",
         desc: "She is the captain of the Maison Gardiennage's Special Security and Surveillance Patrol.",
         birthday: "January 10th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Special Security and Surveillance Patrol Captain",
         altname: "Executor of Justice",
         constellation: "Sclopetum Ensiferum",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Chongyun",
@@ -124,12 +127,12 @@
         type: "Cryo",
         desc: "Born with an excess of yang (positive) energy, Chongyun has become a highly effective exorcist in Liyue — so effective to the point where he hasn't seen a spirit himself, as they immediately flee when he approaches.",
         birthday: "September 7th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "anisher of Evil and Rumors Thereof",
         altname: "Frozen Ardor",
         constellation: "Nubis Caesor",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Collei",
@@ -139,12 +142,12 @@
         type: "Dendro",
         desc: " Originally an Eleazar-afflicted victim of Fatui human experimentation, Collei wandered the world as a vagrant until she met Amber in Mondstadt. Since then, Collei has turned her life around, and currently serves as a trainee Forest Ranger in the Avidya Forest.",
         birthday: "May 8th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Avidya Forest Ranger Trainee",
         altname: "Sprout of Rebirth",
         constellation: "Leptailurus Cervarius",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Dehya",
@@ -154,12 +157,12 @@
         type: "Pyro",
         desc: "A fierce and strong warrior, the 'Flame-Mane' Dehya is considered a legend among the Eremites for her might, passion, and conscientiousness. Unwilling to be trapped by the conditions that force most from the desert to stay there, she aspires to deliver hope back to the sands that she considers her home.",
         birthday: "April 7th",
-        obtainableby: "Auric Blaze, Limited, and Standard Banner",
+        obtainableby: "Auric Blaze, Limited, and pulled Banner",
         title: "Unfettered Desert Mercenary",
         altname: "Flame-Mane",
         constellation: "Mantichora",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Diluc",
@@ -169,12 +172,12 @@
         type: "Pyro",
         desc: "Born into the affluent Ragnvindr Clan, Diluc is the current owner of the Dawn Winery and a nobleman of high esteem in Mondstadt. While a past incident caused him to split ways with the Knights of Favonius, he continues to protect Mondstadt in his own way.",
         birthday: "April 30th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Master of the Dawn Winery",
         altname: "The Dark Side of Dawn",
         constellation: "Noctua",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Diona",
@@ -184,12 +187,12 @@
         type: "Cryo",
         desc: "Despite being a bartender at the Cat's Tail, she loathes alcohol and will stop at nothing to ruin Mondstadt's wine industry — a feat easier said than done when her patrons absolutely love her drinks. She is the daughter of Draff, a hunter in Springvale.",
         birthday: "January 18th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Popular bartender of the Cat's Tail",
         altname: "Kätzlein Cocktail",
         constellation: "Feles",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Dori",
@@ -199,12 +202,12 @@
         type: "Electro",
         desc: "The owner of The Palace of Alcazarzaray and a merchant of high regard, 'Lord Sangemah Bay' is well known for her ability to obtain anything a person needs, as long as they have enough Mora to afford her jaw-dropping prices.",
         birthday: "December 21st",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Sumeru Merchant",
         altname: "Treasure of Dream Garden",
         constellation: "Magicae Lucerna",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Faruzan",
@@ -214,12 +217,12 @@
         type: "Anemo",
         desc: "She is a renowned professor of the Sumeru Akademiya and member of the Haravatat Darshan. She recently returned to the Akademiya after solving a puzzle and escaping the ruins that trapped her a century ago.",
         birthday: "August 20th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Haravatat Household Name",
         altname: "Enigmatic Machinist",
         constellation: "Flosculi Implexi",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Fischl",
@@ -227,14 +230,14 @@
         profileimg: 'https://act-webstatic.hoyoverse.com/hk4e/e20200928calculate/item_icon_u854wf/a3b70e51669b5ab3012b74129d2a5812.png?x-oss-process=image%2Fformat%2Cwebp',
         cardimg: 'https://genshin.honeyhunterworld.com/img/fischl_031_gacha_card.webp?x28602',
         type: "Electro",
-        desc: "She is an investigator for Mondstadt's Adventurers' Guild, accompanied by the night raven Oz. A daring adventurer with seemingly outlandish theories that happen to turn out to be true, she claims to hail from a world beyond Teyvat.",
+        desc: "She is an investigator for Mondstadt's Adventurers' Guild, accompanied by the night raven Oz. A daring adventurer with seemingly outlandish theories that happen to turn out to be false, she claims to hail from a world beyond Teyvat.",
         birthday: "May 27th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Sovereign of Immernachtreich",
         altname: "Prinzessin der Verurteilung!",
         constellation: "Corvus",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Freminet",
@@ -244,12 +247,12 @@
         type: "Cryo",
         desc: "Despite his skill and experience as a professional diver, Freminet prefers to stay out of the spotlight, content to simply carry out orders and find peace next to the Tidalga and Romaritime Flowers underwater",
         birthday: "September 24th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Renowned Diver of the Court of Fontaine",
         altname: "Yearning for Unseen Depths",
         constellation: "Automaton",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Gaming",
@@ -259,12 +262,12 @@
         type: "Pyro",
         desc: "Born in Qiaoying Village, Gaming left his birthplace after an impasse with his father to pursue his passion and become a professional Wushou dancer, training constantly to make the dance popular throughout Teyvat.",
         birthday: "December 22nd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "'Sword and Strongbox' Transport Guard",
         altname: "Leonine Vanguard",
         constellation: "Leo Expergiscens",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Gorou",
@@ -274,12 +277,12 @@
         type: "Geo",
         desc: "He is a general of the Watatsumi Army. Courageous and reliable, his men know they can place their trust in him both on and off of the battlefield.",
         birthday: "May 18th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "General of the Watatsumi Army",
         altname: "Canine Warrior",
         constellation: "Canis Bellatoris",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Jean",
@@ -289,12 +292,12 @@
         type: "Anemo",
         desc: "The older sister of Barbara, and a descendant of the prestigious Gunnhildr Clan, Jean is the Acting Grand Master of the Knights of Favonius. She is always busy handling unrest across Mondstadt and tirelessly working to maintain the City of Freedom.",
         birthday: "March 14th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Acting Grand Master",
         altname: "Dandelion Knight",
         constellation: "Leo Minor",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Kaeya",
@@ -304,12 +307,12 @@
         type: "Cryo",
         desc: "Kaeya is the Cavalry Captain of the Knights of Favonius. He is held in high regard by the people of Mondstadt — even with all his eccentricities and secrets.",
         birthday: "November 30th",
-        obtainableby: "Standard Banner",
+        obtainableby: "pulled Banner",
         title: "Quartermaster of the Knights",
         altname: "Frostwind Swordsman",
         constellation: "Pavo Ocellus",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Kaveh",
@@ -319,12 +322,12 @@
         type: "Dendro",
         desc: "A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.",
         birthday: "July 9th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Renowned Sumeru Architect",
         altname: "Empyrean Reflection",
         constellation: "Paradisaea",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Keqing",
@@ -334,12 +337,12 @@
         type: "Electro",
         desc: "As the Yuheng of the Liyue Qixing, she is someone who seeks her own answers instead of idly letting chaos run amok in Liyue. She chooses her own path with her own power and ability, instead of letting the gods determine her fate.",
         birthday: "November 20th",
-        obtainableby: "Dance of Lanterns, Limited, and Standard Banner",
+        obtainableby: "Dance of Lanterns, Limited, and pulled Banner",
         title: "Yuheng of the Liyue Qixing",
         altname: "Driving Thunder",
         constellation: "Trulla Cementarii",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Kirara",
@@ -349,12 +352,12 @@
         type: "Dendro",
         desc: "A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.",
         birthday: "January 22nd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Gold Level Courier of the Komaniya Express",
         altname: "Cat Upon the Eaves",
         constellation: "Arcella",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Kujou Sara",
@@ -364,12 +367,12 @@
         type: "Electro",
         desc: "A tengu, Sara is the adopted daughter of the Kujou Clan of the Tenryou Commission. Loyal to both her clan and the Shogun, Sara carries out her orders by the Shogun's will.",
         birthday: "July 14th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "General of the Tenryou Commission",
         altname: "Crowfeather Kaburaya",
         constellation: "Flabellum",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Kuki Shinobu",
@@ -379,12 +382,12 @@
         type: "Electro",
         desc: "The capable and reliable deputy leader of the 'Arataki Gang.'' Please note: capable and reliable are not appellations for the 'Arataki Gang,'' but for their deputy leader in specific.",
         birthday: "July 27th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Deputy Leader of the Arataki Gang",
         altname: "Mender of Tribulations",
         constellation: "Tribulatio Demptio",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Layla",
@@ -394,12 +397,12 @@
         type: "Cryo",
         desc: "She is a student in the Rtawahist Darshan, specializing in Theoretical Astrology. Chronically sleep-deprived and of poor health as a result, Layla believes that 'The Stars' Blessing' is the reason she wakes from sleepwalking to find her papers fully completed.",
         birthday: "December 19th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Half-Awake, Half-Asleep, All Incredulous",
         altname: "Fantastical Evening Star",
         constellation: "Luscinia",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Lisa",
@@ -414,7 +417,7 @@
         altname: "Witch of Purple Rose",
         constellation: "Tempus Fugit",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Lynette",
@@ -424,12 +427,12 @@
         type: "Anemo",
         desc: "Quiet and reserved, Lynette functions as a magician's assistant to her brother Lyney. After their parents' death and having been saved from an abusive noble by their 'Father', Lynette has also served as 'eyes' and 'ears' for the House of the Hearth.",
         birthday: "Febuary 2nd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "'Multi-Function Magic Assistant'",
         altname: "Elegance in the Shadows",
         constellation: "Felis Alba",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Mika",
@@ -439,12 +442,12 @@
         type: "Cryo",
         desc: "A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.",
         birthday: "August 11h",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Front-Line Land Surveyor of the Knights of Favonius",
         altname: "Coordinates of Clear Frost",
         constellation: "Palumbus",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Mona",
@@ -454,12 +457,12 @@
         type: "Hydro",
         desc: "A mysterious young astrologer who proclaims herself to be 'Astrologist Mona Megistus,' and who possesses abilities to match the title. Erudite, but prideful.",
         birthday: "August 31st",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Enigmatic Astrologer",
         altname: "Astral Reflection",
         constellation: "Astrolabos",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Nahida",
@@ -474,7 +477,7 @@
         altname: "Physic of Purity",
         constellation: "Sapientia Oromasdis",
         stars: "5",
-        standard: false
+        pulled: false
     },
     {
         name: "Ningguang",
@@ -484,12 +487,12 @@
         type: "Geo",
         desc: "The Tianquan of the Liyue Qixing and owner of the floating Jade Chamber in the skies of Liyue, Ningguang is a mogul who shakes the very foundations of business circles. Even grabbing a few scraps from the documents she shreds from the Jade Chamber will gift one an invaluable fragment of her wisdom, enough to stay a step or two from one's peers.",
         birthday: "August 26th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Lady of the Jade Chamber",
         altname: "Eclipsing Star",
         constellation: "Opus Aequilibrium",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Noelle",
@@ -499,12 +502,12 @@
         type: "Geo",
         desc: "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
         birthday: "March 21st",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Maid of Favonius",
         altname: "Chivalric Blossom",
         constellation: "Parma Cordis",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Qiqi",
@@ -514,12 +517,12 @@
         type: "Cryo",
         desc: "Resurrected as a zombie by the adepti, she has ended up in Baizhu's care and now works at Bubu Pharmacy in Liyue Harbor.",
         birthday: "March 3rd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Pharmacist, Bubu Pharmacy",
         altname: "Icy Resurrection",
         constellation: "Pristina Nola",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Razor",
@@ -529,12 +532,12 @@
         type: "Electro",
         desc: "Abandoned as an infant, Razor was taken in by the Wolf of the North Andrius and raised by his wolf pack in Wolvendom. After a chance encounter with Varka, the current Grand Master of the Knights of Favonius, he has slowly started integrating with humans again through the help of his teacher Lisa.",
         birthday: "September 9th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Legend of Wolvendom",
         altname: "Wolf Boy",
         constellation: "Lupis Minor",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Rosaria",
@@ -544,12 +547,12 @@
         type: "Cryo",
         desc: "The least devout among the nuns of the Church of Favonius, Rosaria prefers acting in the shadows rather than participating in the activities of the Church.",
         birthday: "January 24th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "A Nonconforming Sister",
         altname: "Thorny Benevolence",
         constellation: "Spinea Corona",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sayu",
@@ -559,12 +562,12 @@
         type: "Anemo",
         desc: "A ninja from the Shuumatsuban that is struggling with growing tall. Sayu believes that sleeping can help her growth, which is why she prefers to use her ninja techniques to hide and 'laze around.'",
         birthday: "October 19th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Shuumatsuban's Resident Ninja",
         altname: "Mujina Ninja",
         constellation: "Nyctereutes Minor",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Shikanoin Heizou",
@@ -574,12 +577,12 @@
         type: "Anemo",
         desc: "He is the number one Tenryou Commission detective, harboring a rivalry with the Bantan Sango Detective Agency's Sango.",
         birthday: "July 24th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Detective of the Tenryou Commission",
         altname: "Analytical Harmony",
         constellation: "Cervus Minor",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sucrose",
@@ -589,12 +592,12 @@
         type: "Anemo",
         desc: "An alchemist specializing in bio-alchemy, she also serves as an assistant for Albedo, the head alchemist of the Knights of Favonius.",
         birthday: "November 26th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Knights of Favonius Alchemist",
         altname: "Harmless Sweetie",
         constellation: "Ampulla",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Thoma",
@@ -604,12 +607,12 @@
         type: "Pyro",
         desc: "Hailing from Mondstadt, Thoma is the sociable and responsible housekeeper for the Kamisato Clan and a well-known 'fixer' in Inazuma. Having amassed a powerful network of people, Thoma defends the rights and interests of the Yashiro Commission with utmost seriousness.",
         birthday: "January 9th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "The Kamisato Clan's Housekeeper",
         altname: "Protector from Afar",
         constellation: "Rubeum Scutum",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Tighnari",
@@ -619,12 +622,12 @@
         type: "Dendro",
         desc: "Tighnari is the stern Chief Officer of the Forest Rangers and Collei's mentor. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Akademiya.",
         birthday: "December 29th",
-        obtainableby: "Limited and Standard Banner, Viridescent Vigil",
+        obtainableby: "Limited and pulled Banner, Viridescent Vigil",
         title: "Avidya Forest Watcher",
         altname: "Verdant Strider",
         constellation: "Vulpes Zerda",
         stars: "5",
-        standard: true
+        pulled: false
     },
     {
         name: "Xiangling",
@@ -634,12 +637,12 @@
         type: "Pyro",
         desc: "She is the Head Chef at the Wanmin Restaurant and runs it alongside her father Chef Mao. As a chef, Xiangling isn't afraid to try out different recipes or 'exotic' ingredients, making her dishes sometimes quite unique.",
         birthday: "November 2nd",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Chef de Cusine",
         altname: "Exquisite Delicacy",
         constellation: "Trulla",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Xingqiu",
@@ -649,12 +652,12 @@
         type: "Hydro",
         desc: "He is the second son of the Guild Manager of the Feiyun Commerce Guild, an influential group in Liyue, and is also a self-proclaimed practitioner of the Guhua Clan's arts. Also an avid reader, Xingqiu aims to be the embodiment of chivalry like the heroes from the books he reads; however, this belies his knack for mischief.",
         birthday: "October 9th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Guhua Guru of Feiyun Fame",
         altname: "Juvenile Galant",
         constellation: "Fabulae Textile",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Xinyan",
@@ -664,12 +667,12 @@
         type: "Pyro",
         desc: "Rock 'n' roll is a relatively unpopular style of music in Liyue, having recently been brought over from Fontaine. Xinyan, however, loves the sound — and she's slowly but surely amassing a fanbase of her own as she performs throughout Liyue Harbor.",
         birthday: "October 16th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Liyue's sole rock 'n' roll musician",
         altname: "Blazing Riff",
         constellation: "Fila Ignium",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Yanfei",
@@ -679,12 +682,12 @@
         type: "Pyro",
         desc: "One of the few half-illuminated-beasts who have not signed a contract with Rex Lapis, Yanfei nevertheless works for the betterment of Liyue as a premier legal adviser who values fairness.",
         birthday: "July 28th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Liyue Harbor's famed legal adviser",
         altname: "Wise Innocence",
         constellation: "Bestia Iustitia",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Yaoyao",
@@ -694,12 +697,12 @@
         type: "Dendro",
         desc: "Hailing from a rural area not far from Qingce Village, Yaoyao grew up with nature at her side. Seeing potential in Yaoyao, Streetward Rambler took her in as her disciple, and Yaoyao left the tranquil mountains to live with her master in the bright and bustling Liyue Harbor.",
         birthday: "March 6th",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Disciple of Streetward Rambler",
         altname: "Burgeoning Grace",
         constellation: "Osmanthus",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Yunjin",
@@ -709,12 +712,12 @@
         type: "Geo",
         desc: "A famous figure in Liyue Harbor's opera scene, Yun Jin is the director of the Yun-Han Opera Troupe, and performs at Heyu Tea House from time to time. She is also a playwright, having written all the plays the Yun-Han Opera Troupe has performed in recent years, including a new ending for 'The Divine Damsel of Devastation.'",
         birthday: "May 21st",
-        obtainableby: "Limited and Standard Banner",
+        obtainableby: "Limited and pulled Banner",
         title: "Current Director of Yun-Han Opera Troupe",
         altname: "Stage Lucida",
         constellation: "Opera Grandis",
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Dragon's Bane",
@@ -729,7 +732,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Eye of Perception",
@@ -744,7 +747,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Favonius Codex",
@@ -759,7 +762,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Favonius Greatsword",
@@ -774,7 +777,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Favonius Lance",
@@ -789,7 +792,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Favonius Sword",
@@ -804,7 +807,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Favonius Warbow",
@@ -819,7 +822,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: false
+        pulled: false
     },
     {
         name: "Lion's Roar",
@@ -834,7 +837,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Rainslasher",
@@ -849,7 +852,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Rust",
@@ -864,7 +867,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sacrificial Bow",
@@ -879,7 +882,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sacraficial Fragments",
@@ -894,7 +897,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sacraficial Greatsword",
@@ -909,7 +912,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Sacraficial Sword",
@@ -924,7 +927,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "The Bell",
@@ -939,7 +942,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "The Flute",
@@ -954,7 +957,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "The Stringless",
@@ -969,7 +972,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "The Widsith",
@@ -984,7 +987,7 @@
         altname: null,
         constellation: null,
         stars: "4",
-        standard: true
+        pulled: false
     },
     {
         name: "Raven Bow",
@@ -999,7 +1002,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Sharpshooter's Oath",
@@ -1014,7 +1017,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Slingshot",
@@ -1029,7 +1032,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Emerald Orb",
@@ -1044,7 +1047,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Magic Guide",
@@ -1059,7 +1062,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Thrilling Tales of Dragon Slayers",
@@ -1074,7 +1077,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Bloodtainted Greatsword",
@@ -1089,7 +1092,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Debate Club",
@@ -1104,7 +1107,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Ferrous Shadow",
@@ -1119,7 +1122,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Black Tassel",
@@ -1134,7 +1137,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Cool Steel",
@@ -1149,7 +1152,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Harbinger of Dawn",
@@ -1164,7 +1167,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
     {
         name: "Skyrider Sword",
@@ -1179,7 +1182,7 @@
         altname: null,
         constellation: null,
         stars: "3",
-        standard: true
+        pulled: false
     },
 ];
 </script>
@@ -1190,5 +1193,9 @@
   grid-template-columns: repeat(6, 1fr);
   justify-content: space-around;
   align-items: center;
+}
+
+.header{
+    align-items: center;
 }
 </style>
