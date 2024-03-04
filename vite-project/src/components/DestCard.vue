@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class = "backgroundimgcolor">
+    <div class="backgroundimgcolor">
       <img :src="Destination.profileimg" alt="" />
     </div>
     <h2>•---------•</h2>
@@ -12,7 +12,6 @@
 const props = defineProps({
   Destination: Object,
 });
-
 </script>
 
 <style scoped>
@@ -22,7 +21,7 @@ img {
 }
 
 .card {
-  height: 240px;
+  height: 280px;
   width: 200px;
   border-radius: 12px;
   padding: 2%;
@@ -32,13 +31,18 @@ img {
   flex-direction: column;
   text-align: center;
   filter: grayscale(100%);
+  box-sizing: border-box;
 }
 
 .backgroundimgcolor {
   background-color: #77669c;
-/*   #a0652e
-#567697 */
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+body {
+  margin: 0;
+}
 </style>
